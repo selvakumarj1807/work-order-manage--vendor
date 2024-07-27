@@ -202,7 +202,7 @@ export default function VendorSignin() {
                     </Paragraph>
                     <Paragraph>
                       <NavLink
-                        to="/home"
+                        to="https://work-order-management.vercel.app/home"
                         style={{
                           color: theme.palette.primary.main,
                           marginLeft: 5,

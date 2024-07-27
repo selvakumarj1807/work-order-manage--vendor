@@ -1,50 +1,49 @@
-
 export const vendorNav = [
-    { name: "Dashboard", path: "/vendor/dashboard"},
-    { name: "Vendor Registration", path: "/vendor/register",  },
-    
+    { name: "Dashboard", path: "/vendor/dashboard" },
+    { name: "Vendor Registration", path: "/vendor/register", },
+
     {
-      name: "Product Registration",
-      // icon: "security",
-      children: [
-        // { name: "Invoice Generation", iconText: "SI", path: "dashboard/invoice/generation" },
-        {
-          name: "Add Product",
-          // icon: <AddCircleIcon />,
-          path: "/vendor/product/add",
-        },
-        {
-          name: "Product List",
-          // icon: <FormatListBulletedIcon />,
-          path: "/vendor/product/list",
-        }
-      ],
+        name: "Product Registration",
+        // icon: "security",
+        children: [
+            // { name: "Invoice Generation", iconText: "SI", path: "dashboard/invoice/generation" },
+            {
+                name: "Add Product",
+                // icon: <AddCircleIcon />,
+                path: "/vendor/product/add",
+            },
+            {
+                name: "Product List",
+                // icon: <FormatListBulletedIcon />,
+                path: "/vendor/product/list",
+            }
+        ],
     },
     {
-      name: "Quote Management",
-      // icon: <DvrIcon />,
-      children: [
-        // { name: "Invoice Generation", iconText: "SI", path: "dashboard/invoice/generation" },
-        // {
-        //   name: "Quote Request",
-        //   iconText: "SU",
-        //   path: "/vendor/quote/request",
-        // },
-        {
-          name: "Quote Generator",
-          // icon: <ReceiptIcon />,
-          path: "/vendor/quote/generator",
-        },
-        {
-          name: "Quote Success",
-          // icon: <CheckCircleIcon />,
-          path: "/vendor/quote/success",
-        }
-      ],
+        name: "Quote Management",
+        // icon: <DvrIcon />,
+        children: [
+            // { name: "Invoice Generation", iconText: "SI", path: "dashboard/invoice/generation" },
+            // {
+            //   name: "Quote Request",
+            //   iconText: "SU",
+            //   path: "/vendor/quote/request",
+            // },
+            {
+                name: "Quote Generator",
+                // icon: <ReceiptIcon />,
+                path: "/vendor/quote/generator",
+            },
+            {
+                name: "Quote Success",
+                // icon: <CheckCircleIcon />,
+                path: "/vendor/quote/success",
+            }
+        ],
     },
     { name: "Payment Response", path: "/vendor/payment" },
-  
-    { name: "Logout", path: "/vendor/signin"},
+
+    { name: "Logout", path: "https://work-order-management.vercel.app/home" },
     // { label: "Components", type: "label" }
     // {
     //   name: "Components",
@@ -78,5 +77,4 @@ export const vendorNav = [
     //   type: "extLink",
     //   path: "http://demos.ui-lib.com/matx-react-doc/"
     // }
-  ];
-  
+];
